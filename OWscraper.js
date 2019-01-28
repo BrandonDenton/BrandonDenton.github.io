@@ -6,7 +6,7 @@ reg = "us"
 
 const url='https://playoverwatch.com/en-us/career/pc/';
 passURL = url + reg + '/' + battletag;
-print(passURL);
+document.write(passURL);
 
 page = request.open('GET', passURL, true);
 
@@ -15,9 +15,9 @@ request.onload = function() {
 	var data = JSON.parse(this.response);
 		
 	if(request.status >= 200 && request.status < 400) {
-		print(data);
+		document.write(data);
 	} else {
-		print("Overwatch machine broke")
+		document.write("Overwatch machine broke")
 		console.log('error');
 	}	
 } request.send();
