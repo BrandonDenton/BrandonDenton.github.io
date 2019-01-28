@@ -11,16 +11,15 @@ print(passURL);
 page = request.open('GET', passURL, true);
 
 request.onload = function() {
-		// work with data
-		var data = JSON.parse(this.response);
+	// work with data
+	var data = JSON.parse(this.response);
 		
-		if(request.status >= 200 && request.status < 400) {
-				print(data);
-		} else {
-			print("Overwatch machine broke")
-			console.log('error');
-		}	
-	}
+	if(request.status >= 200 && request.status < 400) {
+		print(data);
+	} else {
+		print("Overwatch machine broke")
+		console.log('error');
+	}	
 } request.send();
 
 //get
