@@ -6,6 +6,7 @@ reg = "us"
 
 const url='https://playoverwatch.com/en-us/career/pc/';
 passURL = url + reg + '/' + battletag;
+print(passURL);
 
 page = request.open('GET', passURL, true);
 
