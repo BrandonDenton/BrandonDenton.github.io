@@ -15,8 +15,12 @@
 <body>
   
   <h1>Overwatch Stats (I'll make this a proper CV site later)</h1>
-
-  <script src="OWscraper.js"></script>
+  
+  <?php
+    $response = http_get("https://playoverwatch.com/en-us/career/pc/us/OinkerBob-1276", array("timeout"=>1), $info);
+    print_r($info);
+  ?>
+  //<script src="OWscraper.js"></script>
 </body>
 
 </html>
