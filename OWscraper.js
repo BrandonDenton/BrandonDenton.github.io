@@ -1,12 +1,12 @@
 // Overwatch Stats Scraper
 var request = new XMLHttpRequest();
 
-battletag = "OinkerBob-1286";
+battletag = "OinkerBob-1276";
 reg = "us"
 
 const url='https://playoverwatch.com/en-us/career/pc/';
 passURL = url + reg + '/' + battletag;
-document.write(passURL);
+document.getElementById("OWstats").innerHTML = passURL + "\n";
 
 page = request.open('GET', passURL, true);
 
@@ -15,9 +15,9 @@ request.onload = function() {
 	var data = JSON.parse(this.response);
 		
 	if(request.status >= 200 && request.status < 400) {
-		document.write(data);
+		document.getElementById("OWstats").innerHTML= data;
 	} else {
-		document.write("Overwatch machine broke")
+		document.getElementById("OWstats").innerHTML = "Overwatch machine broke";
 		console.log('error');
 	}	
 } request.send();
