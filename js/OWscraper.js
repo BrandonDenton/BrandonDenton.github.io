@@ -1,4 +1,6 @@
 // Overwatch Stats Scraper
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+
 var request = new XMLHttpRequest();
 
 battletag = "OinkerBob-1276";
