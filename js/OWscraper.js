@@ -1,5 +1,5 @@
 // Overwatch Stats Scraper
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
+document.getElementById("OWstats").innerHTML = "Hello JavaScript!";
 
 var request = new XMLHttpRequest();
 
