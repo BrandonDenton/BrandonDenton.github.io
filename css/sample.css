@@ -8,6 +8,13 @@
   flex-wrap: wrap;
 }
 
+.site-text {
+   background-color: #f5f5e8;
+   border-style: groove;
+   border-color: #c3202f;
+   border-width: 4px;
+}
+
 .card {
   margin: 1rem;
   border: 1px solid gray;
