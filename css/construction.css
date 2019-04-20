@@ -9,6 +9,7 @@ p {
 }
 
 .site-main {
+   align: center;
    background-color: #f5f5e8;
    border-style: groove;
    border-color: #c3202f;
