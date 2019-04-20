@@ -16,7 +16,7 @@ p {
 }
 
 .site-main {
-   position: relative;
+   position: absolute;
    top: 75%;
    bottom: 48%;
    background-color: #f5f5e8;
