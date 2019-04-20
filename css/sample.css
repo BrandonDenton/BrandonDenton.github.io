@@ -1,5 +1,5 @@
 #root {
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -21,6 +21,11 @@ p {
 }
 
 .site-main {
+   position: absolute;
+   top: 75%;
+   bottom: 48%;
+   right: 85%;
+   left: 15%;
    background-color: #f5f5e8;
    border-style: groove;
    border-color: #c3202f;
