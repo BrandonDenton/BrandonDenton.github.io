@@ -13,6 +13,9 @@
    border-style: groove;
    border-color: #c3202f;
    border-width: 4px;
+   font-family: Georgia, sans-serif;
+   font-size: 15px;
+   font-color: #404040;
 }
 
 .card {
