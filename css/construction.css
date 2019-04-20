@@ -1,16 +1,14 @@
 h1 {
-   font-family: Georgia, sans-serif;
    font-size: 23px;
    font-color: #404040;
 }
 
 p {
-   font-family: Georgia, sans-serif;
    font-size: 15px;
    font-color: #4a4a4a;
 }
 
-#site-main {
+.site-main {
    position: absolute;
    width: 80%;
    height: 40%;
@@ -20,24 +18,8 @@ p {
    border-width: 4px;
 }
 
-#site-text {
+.site-text {
+   font-family: Georgia, sans-serif;
    font-style: oblique;
    text-align: center;
-}
-
-.card {
-  margin: 1rem;
-  border: 1px solid gray;
-}
-
-@media screen and (min-width: 600px) {
-  .card {
-    flex: 1 1 calc(50% - 2rem);
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .card {
-    flex: 1 1 calc(33% - 2rem);
-  }
 }
