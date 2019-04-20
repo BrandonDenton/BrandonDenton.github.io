@@ -39,10 +39,11 @@ p {
    letter-spacing: 2px;
    transition: all 0.3s ease-in-out;
    text-decoration: none;
+   bottom: 5%;
 }
 
 .site.main .site-btn:hover {
     background-color: #214685;
-    border-color: #224685;
+    border-color: #2f4f8f;
     color: #254a89;
 }
