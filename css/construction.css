@@ -18,7 +18,8 @@ p {
    border-style: groove;
    border-color: #c3202f;
    border-width: 4px;
-   bottom: 75%;
+   top: 92%;
+   bottom: 60%;
 }
 
 .site-main .site-text {
@@ -33,7 +34,7 @@ p {
    font-family: 'Georgia', sans-serif;
    border: 1px solid #305594;
    background-color: #234887;
-/*    display: inline-block; */
+   display: inline-block;
    width: 125px;
    height: 25px;
    text-align: center;
