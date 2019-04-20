@@ -16,7 +16,7 @@ p {
 }
 
 .site-main {
-   position: absolute;
+   position: relative;
    top: 75%;
    bottom: 48%;
    right: 85%;
