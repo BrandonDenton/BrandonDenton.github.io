@@ -12,6 +12,7 @@ p {
    position: absolute;
    width: 80%;
    height: 40%;
+   margin: auto;
    background-color: #f5f5e8;
    border-style: groove;
    border-color: #c3202f;
