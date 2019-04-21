@@ -54,7 +54,7 @@ p {
 }
 
 .site-btn:hover {
-    background-color: #green;
-    border-color: #f8f8f8;
-    color: #264b8a;
+    background-color: green;
+    border-color: #404040;
+    color: #f8f8f8;
 }
