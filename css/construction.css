@@ -4,12 +4,17 @@ body {
 
 h1 {
    font-size: 23px;
-   font-color: #404040;
+   color: #404040;
+}
+
+h1:hover {
+   font-size: 28px;
+   color: #484848;
 }
 
 p {
    font-size: 15px;
-   font-color: #4a4a4a;
+   color: #4a4a4a;
 }
 
 .row {
@@ -48,7 +53,7 @@ p {
    bottom: 5%;
 }
 
-.site.main .site-btn:hov {
+.site.main .site-btn:hover {
     background-color: #green;
     border-color: #f8f8f8;
     color: #264b8a;
