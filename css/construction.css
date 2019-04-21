@@ -48,7 +48,7 @@ p {
    bottom: 5%;
 }
 
-.site.main .site-btn:hover {
+.site.main .site-btn:hov {
     background-color: #green;
     border-color: #f8f8f8;
     color: #264b8a;
